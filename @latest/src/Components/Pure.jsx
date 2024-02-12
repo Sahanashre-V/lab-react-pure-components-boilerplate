@@ -12,6 +12,7 @@ class Pure extends PureComponent{
      handleCounter = () => {
         if(this.state.condition === true)
 this.setState({...this.state,count:this.state.count + 1})
+
     }
 
      handleToggle = () => {
@@ -19,6 +20,7 @@ this.setState({...this.state,count:this.state.count + 1})
     }
 
     render(){
+        console.log("Pure Component")
         return(
             <div>
                 <h1>Pure Component</h1>

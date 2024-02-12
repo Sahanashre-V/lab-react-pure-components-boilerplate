@@ -12,6 +12,7 @@ class Regular extends Component{
      handleCounter = () => {
         if(this.state.condition == true)
 this.setState({...this.state,count:this.state.count + 1})
+
     }
 
      handleToggle = () => {
@@ -19,6 +20,7 @@ this.setState({...this.state,count:this.state.count + 1})
     }
 
     render(){
+        console.log("Simple Component")
         return(
             <div>
                 <h1>Simple Component</h1>
